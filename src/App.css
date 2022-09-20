@@ -1,6 +1,11 @@
-.top-container {
+
+.main {
     height: 100%;
     width: 100%;
+}
+
+
+.top-container {
     animation: fadeInOpacity 10s linear infinite;
     background-image: url("images/lofi_background.jpeg");
     background-size: cover;

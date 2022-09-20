@@ -10,7 +10,6 @@ function App() {
         <Header title="Poopity Scoop" style={{ position: 'relative', zIndex: '2' }}/>
       </div>
       <div className="body-container">
-        <Body />
       </div>
     </div>
   );
