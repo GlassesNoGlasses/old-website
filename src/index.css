@@ -1,9 +1,24 @@
-html {
+body {
+    height: 100%;
+    min-height: 100%;
     background-image: url("images/background.jpeg");
+    font-family: 'Open Sans', 'Times New Roman', Times, serif;
 }
 
-body {
-    font-family: 'Open Sans', 'Times New Roman', Times, serif;
+@keyframes fill{
+    0%{
+        background-position: 0px 140px;
+    }
+    20%
+    {
+        background-position: -450px 100px;
+    }
+    40%{
+        background-position: -900px 50px;
+    }
+    80%, 100%{
+        background-position: -1350px -40px;
+    }
 }
 
 @keyframes fadeInOpacity {
@@ -15,7 +30,8 @@ body {
     {
         opacity: 0.6;
     }
-} */
+} 
+
 
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
