@@ -2,7 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://GlassesNoGlasses.github.io/GlassesNoGlasses.github.io",
+  "homepage": "https://GlassesNoGlasses.github.io",
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
     "@fortawesome/free-brands-svg-icons": "^6.2.0",
