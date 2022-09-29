@@ -6,8 +6,11 @@ import reportWebVitals from './reportWebVitals';
 
 document.getElementsByClassName("cup")[0].addEventListener("animationend", () => {
   document.getElementsByClassName("loader-container")[0].id = "endAnim";
-  document.getElementById("endAnim").classList.remove("loader-container");
+  setTimeout(() => {
+    document.getElementById("endAnim").remove()
+  },2000);
 }, false);
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

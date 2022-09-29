@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import github from '../../images/github.svg'
-import linkedin from '../../images/linkedin.svg'
+import linkedin from '../../images/instagram.svg'
 import instagram from '../../images/instagram.svg'
 import './icons.css'
 
