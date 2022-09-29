@@ -1,7 +1,7 @@
 import { Intro } from './Intro'
 import PropTypes from 'prop-types'
-import { Icons } from './Icons'
 import { Languages } from './Languages'
+import { Icons } from './Icons'
 
 export const Header = (props) => {
   return (
