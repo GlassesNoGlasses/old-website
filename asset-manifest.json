@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.32e60a48.css",
-    "main.js": "/static/js/main.691abcbd.js",
+    "main.js": "/static/js/main.78b2314d.js",
     "static/js/905.97a29bd1.chunk.js": "/static/js/905.97a29bd1.chunk.js",
     "static/media/lofi_background.jpeg": "/static/media/lofi_background.d294b2a71efefb60b447.jpeg",
     "static/media/background.jpeg": "/static/media/background.ddedafb4aae78550cd20.jpeg",
@@ -11,13 +11,14 @@
     "static/media/javascript.svg": "/static/media/javascript.5ee3c82fade3a5a9c98dc18702a4f717.svg",
     "static/media/github.svg": "/static/media/github.3b21c250a99986431958daaa9246a45a.svg",
     "index.html": "/index.html",
+    "static/media/linkedin.svg": "/static/media/linkedin.98956d298e14a6384fdb39c42269f2f2.svg",
     "static/media/c.svg": "/static/media/c.4b3cff5151588e79b8b1beb30ec237b2.svg",
     "main.32e60a48.css.map": "/static/css/main.32e60a48.css.map",
-    "main.691abcbd.js.map": "/static/js/main.691abcbd.js.map",
+    "main.78b2314d.js.map": "/static/js/main.78b2314d.js.map",
     "905.97a29bd1.chunk.js.map": "/static/js/905.97a29bd1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.32e60a48.css",
-    "static/js/main.691abcbd.js"
+    "static/js/main.78b2314d.js"
   ]
 }
