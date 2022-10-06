@@ -4,20 +4,19 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-document.getElementsByClassName("cup")[0].addEventListener("animationend", () => {
-  document.getElementsByClassName("loader-container")[0].id = "endAnim";
-  setTimeout(() => {
-    document.getElementById("endAnim").remove()
-  },2000);
-}, false);
-
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App/>
   </React.StrictMode>
 );
+
+document.getElementsByClassName("cup")[0].addEventListener("animationend", () => {
+  document.getElementsByClassName("loader-container")[0].id = "endAnim";
+  setTimeout(() => {
+    document.getElementById("endAnim").remove()
+  },2000);
+}, false);
 
 reportWebVitals();
 

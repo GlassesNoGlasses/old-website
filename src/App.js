@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="main">
       <div className="top-container">
-        <Header title="Poopity Scoop"/>
+        <Header/>
       </div>
       <div className="body-container">
       </div>

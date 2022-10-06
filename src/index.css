@@ -6,6 +6,7 @@ html {
 body {
     height: 700px;
     width: auto;
+    margin-bottom: 2%;
     background-image: url("images/background.jpeg");
     font-family: 'Open Sans', 'Times New Roman', Times, serif;
 }
@@ -37,11 +38,6 @@ body {
     }
 } 
 
-#page {
-    height: 100%;
-    width: 100%;
-}
-
 #root {
     height: max-content;
     width: 100%;
@@ -50,7 +46,7 @@ body {
 }
 
 .loader-container {
-    height: 700px;;
+    height: 800px;
     width: 100%;
     background-color: antiquewhite;
     display: flex;
@@ -61,7 +57,7 @@ body {
 } 
 
 #endAnim{
-    height: 700px;
+    height: 800px;
     width: 100%;
     background-color: antiquewhite;
     display: flex;
