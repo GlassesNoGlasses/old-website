@@ -1,0 +1,79 @@
+.fire {
+    display: flex;
+    position: relative;
+    height: 50px;
+    width: 50px;
+    margin-left: 43.4%;
+    margin-right: auto;
+    top: 40px;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    background-color: yellow;
+    opacity: 0;
+    filter: blur(1.5rem);
+}
+
+.fire:hover {
+    opacity: 1.0;
+}
+
+#fireStart {
+    animation: fadeInOpacity 2s infinite;
+}
+
+@keyframes fadeInOpacity {
+    0%,100%
+    {
+        opacity: 1.5;
+        background-color: yellow;
+    }
+    25% {
+        background-color: orangered;
+    }
+    50%
+    {
+        opacity: 0.5;
+        background-color: red;
+    }
+    75% {
+        background-color: orange;
+    }
+}
+
+.ember {
+    display: flex;
+    position: relative;
+    height: 5px;
+    width: 5px;
+    top: 30px;
+    margin-left: 44.5%;
+    margin-right: auto;
+    background-color: orangered;
+    border-radius: 1px 0 0 1px;
+    animation: embers 1.5s infinite;
+}
+
+.ember:nth-child(0) {
+    top: 30px;
+    margin-left: 44.5%;
+    margin-right: auto;
+}
+
+.ember:nth-child(1) {
+    position: relative;
+    margin-right: 5%;
+    animation-delay: 0.2s;
+    animation-duration: 1s;
+}
+
+@keyframes embers {
+    50% {
+        opacity: 1.0;
+        transform: translateY(-30px);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-55px);
+    }
+}

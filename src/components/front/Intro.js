@@ -27,7 +27,7 @@ Intro.propTypes = {
 
 // default value for props
 Intro.defaultProps = {
-    initial: "N.W",
+    initial: "N.W.",
 }
 
 // // define styles; is object
