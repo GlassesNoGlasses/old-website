@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.32e60a48.css",
-    "main.js": "/static/js/main.2ceef7e7.js",
+    "main.css": "/static/css/main.07c27719.css",
+    "main.js": "/static/js/main.80f6b63c.js",
     "static/js/905.97a29bd1.chunk.js": "/static/js/905.97a29bd1.chunk.js",
+    "static/media/fire.mp3": "/static/media/fire.4ecb8a5ed1b520b1bd8e.mp3",
     "static/media/lofi_background.jpeg": "/static/media/lofi_background.d294b2a71efefb60b447.jpeg",
     "static/media/background.jpeg": "/static/media/background.ddedafb4aae78550cd20.jpeg",
     "static/media/java.png": "/static/media/java.375f91150aebfc2e19ef.png",
@@ -14,12 +15,12 @@
     "index.html": "/index.html",
     "static/media/linkedin.svg": "/static/media/linkedin.98956d298e14a6384fdb39c42269f2f2.svg",
     "static/media/c.svg": "/static/media/c.4b3cff5151588e79b8b1beb30ec237b2.svg",
-    "main.32e60a48.css.map": "/static/css/main.32e60a48.css.map",
-    "main.2ceef7e7.js.map": "/static/js/main.2ceef7e7.js.map",
+    "main.07c27719.css.map": "/static/css/main.07c27719.css.map",
+    "main.80f6b63c.js.map": "/static/js/main.80f6b63c.js.map",
     "905.97a29bd1.chunk.js.map": "/static/js/905.97a29bd1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.32e60a48.css",
-    "static/js/main.2ceef7e7.js"
+    "static/css/main.07c27719.css",
+    "static/js/main.80f6b63c.js"
   ]
 }
