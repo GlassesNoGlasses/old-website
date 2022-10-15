@@ -5,12 +5,12 @@
     width: 50px;
     margin-left: 43.4%;
     margin-right: auto;
-    margin-top: 5%;
+    margin-top: 3%;
     outline: none;
     border: none;
     border-radius: 50%;
     background-color: yellow;
-    opacity: 1;
+    opacity: 0;
     filter: blur(1.5rem);
 }
 

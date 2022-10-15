@@ -12,8 +12,8 @@ export const Header = (props) => {
         <Icons ref1={"https://www.linkedin.com/in/neil-wang-y007/"}
         ref2={"https://github.com/GlassesNoGlasses"}
         ref3={"https://www.instagram.com/neil_wang1/"}/>
-        <Campfire sound={fire} />
         <Languages />
+        <Campfire sound={fire} />
     </header>
   )
 }

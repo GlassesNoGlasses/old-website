@@ -12,6 +12,7 @@
 .language-container {
     display: flex;
     justify-content: space-evenly;
+    position: static;
     height: 30%;
     width: 30%;
     margin-left: auto;
