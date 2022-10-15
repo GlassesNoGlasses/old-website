@@ -9,7 +9,7 @@ import './icons.css'
 
 export const Languages = (props) => {
   return (
-    <div className='icon-container'>
+    <div className='language-container'>
         <img className='icon-languages' src={props.lng1} alt='1'></img>
         <img className='icon-languages' src={props.lng5} alt='5'></img>
         <img className='icon-languages' src={props.lng2} alt='2'></img>

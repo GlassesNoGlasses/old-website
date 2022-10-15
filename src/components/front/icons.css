@@ -1,24 +1,35 @@
 .icon-container {
     display: flex;
     justify-content: space-evenly;
-    height: 150px;
-    width: 350px;
+    height: 40%;
+    width: 30%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 1%;
     margin-bottom: 2%;
 }
 
+.language-container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 30%;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -2%;
+    margin-bottom: 2%;
+}
+
 .icon-images {
-    height: 60px;
-    width: auto;
+    height: 60%;
+    width: 80%;
     margin: auto;
     filter: brightness(0) invert(1);
 }
 
 .icon-languages {
-    height: 45px;
-    width: auto;
+    height: 4%;
+    width: 12%;
     margin: auto;
     filter: brightness(0) invert(1);
 }
