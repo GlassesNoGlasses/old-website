@@ -4,7 +4,7 @@ import './intro.css'
 export const Intro = (props) => {
     return (
         <div className='introContainer'>
-            <span className='introText'>{props.initial}</span>
+            <div className='introText'>{props.initial}</div>
             <span className='star'></span>
             <span className='star'></span>
             <span className='star'></span>
