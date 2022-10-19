@@ -1,11 +1,11 @@
 .fire {
     display: flex;
     position: relative;
-    height: 50px;
-    width: 50px;
-    margin-left: 43.4%;
+    height: 5%;
+    width: 5%;
+    margin-left: 42%;
     margin-right: auto;
-    margin-top: 3%;
+    margin-top: 6%;
     outline: none;
     border: none;
     border-radius: 50%;
@@ -19,7 +19,7 @@
 }
 
 #fireStart {
-    animation: fadeInOpacity 2s infinite;
+    animation: fadeInOpacity 4s infinite;
 }
 
 @keyframes fadeInOpacity {
@@ -29,14 +29,14 @@
         background-color: yellow;
     }
     25% {
-        background-color: orangered;
+        background-color: orange;
     }
     50%
     {
         opacity: 0.5;
-        background-color: red;
+        background-color: orangered;
     }
-    75% {
+    66% {
         background-color: orange;
     }
 }

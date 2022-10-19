@@ -9,9 +9,7 @@ const Campfire = (props) => {
           audio.play();
     }
   return (
-    <div>
-        <button className='fire' onClick={fireStart}></button>
-    </div>
+      <button className='fire' onClick={fireStart}></button>
   )
 }
 

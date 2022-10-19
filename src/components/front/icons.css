@@ -1,7 +1,7 @@
 .icon-container {
     display: flex;
     justify-content: space-evenly;
-    height: 40%;
+    position: relative;
     width: 30%;
     margin-left: auto;
     margin-right: auto;
@@ -20,7 +20,7 @@
 }
 
 .icon-images {
-    height: 60%;
+    height: 50%;
     width: 80%;
     margin: auto;
     filter: brightness(0) invert(1);

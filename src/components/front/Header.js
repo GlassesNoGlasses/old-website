@@ -2,8 +2,6 @@ import { Intro } from './Intro'
 import PropTypes from 'prop-types'
 import { Languages } from './Languages'
 import { Icons } from './Icons'
-import Campfire from './Campfire'
-import fire from '../../sounds/fire.mp3'
 
 export const Header = (props) => {
   return (
@@ -13,7 +11,6 @@ export const Header = (props) => {
         ref2={"https://github.com/GlassesNoGlasses"}
         ref3={"https://www.instagram.com/neil_wang1/"}/>
         <Languages />
-        <Campfire sound={fire} />
     </header>
   )
 }
