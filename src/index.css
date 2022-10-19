@@ -8,9 +8,6 @@ body {
     height: 100vh;
     width: 100vw;
     overflow-x: hidden;
-    margin-bottom: 3%;
-    margin-left: auto;
-    margin-right: auto;
     background-image: url("images/background.jpeg");
     background-size: cover;
     font-family: 'Open Sans', 'Times New Roman', Times, serif;
@@ -44,8 +41,11 @@ body {
 } 
 
 #page {
+    margin: none;
     height: 100%;
     width: 100%;
+    min-width: auto;
+    min-height: 900px;
 }
 
 #root {
@@ -56,8 +56,8 @@ body {
 }
 
 .loader-container {
-    height: 110%;
-    width: 110%;
+    height: 105%;
+    width: 100%;
     background-color: antiquewhite;
     display: flex;
     justify-content: center;
@@ -68,8 +68,8 @@ body {
 } 
 
 #endAnim{
-    height: 110%;
-    width: 110%;
+    height: 105%;
+    width: 100%;
     background-color: antiquewhite;
     display: flex;
     justify-content: center;
@@ -84,7 +84,7 @@ body {
     width: 12%;
     border: 6px solid #e6b54a;
     position: absolute;
-    margin-left: -10%;
+    margin: auto;
     border-radius: 0px 0px 70px 70px;
     background: url("images/coffee.png");
     box-shadow: 0px 0px 0px 6px rgb(94, 56, 0);
@@ -108,8 +108,9 @@ body {
 .aroma {
     opacity: 0;
     position: relative;
-    margin-bottom: 22%;
-    margin-right: 9%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 23%;
     height: fit-content;
     animation: fadeIn 2s 1.5s forwards;
 }
