@@ -24,9 +24,3 @@ Header.propTypes = {
 Header.defaultProps = {
     title: 'Boo!',
 }
-
-// // define styles; is object
-// const headerStyle = {
-//     color: "red",
-//     backgroundColor: "black",
-// }
